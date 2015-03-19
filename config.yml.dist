@@ -10,6 +10,7 @@
 #  field: images        # Name of the field in the defined conenttype
 #  random: true         # Randomise the order of images
 #  count: 10            # Limit the number of pictures selected from the record
+#  class: my_class      # The HTML class to add to the carousel element 
 #  text:                #
 #    next: Next         # Accessibility text for 'Next' button
 #    prev: Previous     # Accessibility text for 'Previous' button

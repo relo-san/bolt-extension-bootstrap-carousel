@@ -91,6 +91,7 @@ class Extension extends \Bolt\BaseExtension
 
             $html = $this->app['render']->render('carousel.twig', array(
                 'name'        => $name,
+                'class'       => isset($carousel['class']) ? : '',
                 'next'        => isset($carousel['text']['next']) ? : 'Next',
                 'prev'        => isset($carousel['text']['next']) ? : 'Previous',
                 'dataoptions' => trim($dataoptions),
