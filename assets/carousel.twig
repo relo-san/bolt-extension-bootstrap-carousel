@@ -13,7 +13,7 @@
         {% for image in images %}
             {% if loop.first %}{% set active = 'active' %}{% else %}{% set active = '' %}{% endif %}
             <div class="item {{ active }}">
-                <img src="{{ app.paths.files ~ image.filename }}" alt="alt="{{ image.title }}">
+                <img src="{{ app.paths.files ~ image.filename }}" alt="{{ image.title }}">
                 <div class="carousel-caption">{{ image.title }}</div>
             </div>
         {% endfor %}
